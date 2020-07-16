@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Andrey/CLionProjects/Gauss-Jordan/main.c
+D:/Projects/labs/labs/sem2/SystemLinUr/Gauss-Jordan/main.c
 stdio.h
 -
 omp.h

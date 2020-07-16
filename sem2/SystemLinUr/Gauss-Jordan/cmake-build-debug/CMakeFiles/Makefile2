@@ -43,10 +43,10 @@ RM = C:\Users\Andrey\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.5662.56
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Andrey\CLionProjects\Gauss-Jordan
+CMAKE_SOURCE_DIR = D:\Projects\labs\labs\sem2\SystemLinUr\Gauss-Jordan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Andrey\CLionProjects\Gauss-Jordan\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Projects\labs\labs\sem2\SystemLinUr\Gauss-Jordan\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -73,14 +73,14 @@ preinstall:
 CMakeFiles/Gauss_Jordan.dir/all:
 	$(MAKE) -f CMakeFiles\Gauss_Jordan.dir\build.make CMakeFiles/Gauss_Jordan.dir/depend
 	$(MAKE) -f CMakeFiles\Gauss_Jordan.dir\build.make CMakeFiles/Gauss_Jordan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Andrey\CLionProjects\Gauss-Jordan\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Gauss_Jordan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Projects\labs\labs\sem2\SystemLinUr\Gauss-Jordan\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Gauss_Jordan"
 .PHONY : CMakeFiles/Gauss_Jordan.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Gauss_Jordan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Andrey\CLionProjects\Gauss-Jordan\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\labs\labs\sem2\SystemLinUr\Gauss-Jordan\cmake-build-debug\CMakeFiles 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Gauss_Jordan.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Andrey\CLionProjects\Gauss-Jordan\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\labs\labs\sem2\SystemLinUr\Gauss-Jordan\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Gauss_Jordan.dir/rule
 
 # Convenience name for target.

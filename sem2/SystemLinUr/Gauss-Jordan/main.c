@@ -49,9 +49,9 @@ int main()
                 }
             }
         }
-        for (i = 1; i <= n; i++) {
-            //x[i] = A[i][n + 1] / A[i][i];
-        }
+//        for (i = 1; i <= n; i++) {
+//            x[i] = A[i][n + 1] / A[i][i];
+//        }
 // TIME STOP
         double stop_time = omp_get_wtime();
 
