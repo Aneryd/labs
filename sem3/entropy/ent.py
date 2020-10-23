@@ -1,22 +1,24 @@
 import math
 
-file_open = open('1.txt')
-file_print = file_open.read()
+mass = []
+k = 1
 
-data = list(file_print)
-print(data)
+def file():
+	file_open = open('1.txt')
+	file_print = file_open.read()
+	return file_print
 
-l = len(data)
-print(l)
+def count(message):
+	file_s = list(message)
 
-set_list = set(data)
-set_list = (list(set_list))
+	array_d = {}.fromkeys(file_s, 0)
+	for a in file_s:
+		array_d[a] += 1
+	return array_d.values()
 
-for item in set_list:
-	ver = data.count(item)
-	cnt = ver/l
-	logver = math.log2(cnt)
-entropy = -logver
-print(entropy)
+def ent(message):
+	return -sum([i/len(message)*math.log2(i/len(message)) for i in count(message)])
 
-file_open.close
+text = file()
+print(text)
+print(ent(text))
