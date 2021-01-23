@@ -14,4 +14,4 @@ mediana = []
 
 for i in range(b-1):
     mediana.append(spisok[i+1])
-print('Медианный фильтр =',mediana)
+print('Median filter =',mediana)

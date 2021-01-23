@@ -11,7 +11,7 @@ def matrixmult (A, B):
     cols_B = len(B[0])
 
     if cols_A != rows_B:
-      print("Cannot multiply the two matrices. Incorrect dimensions.")
+      print("ERROR")
       return
 
     # Create the result matrix
