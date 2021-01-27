@@ -4,7 +4,7 @@ mass = []
 k = 1
 
 def file():
-	file_open = open('1.txt')
+	file_open = open('newfile.txt')
 	file_print = file_open.read()
 	return file_print
 
