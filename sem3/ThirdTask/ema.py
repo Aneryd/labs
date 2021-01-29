@@ -2,7 +2,9 @@ import openpyxl
 
 wb = openpyxl.load_workbook('data1.xlsx')
 sheet = wb.active
+
 a = []
+
 for cell in sheet['A']:
     a.append(cell.value)
 del a[0]
